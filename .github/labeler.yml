@@ -1,0 +1,4 @@
+feature:
+- any: ['feature/*', 'feat/*']
+exercise:
+- exercises/*
