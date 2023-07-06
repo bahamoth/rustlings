@@ -8,7 +8,7 @@ use indicatif::ProgressBar;
 // and run the ensuing binary.
 // The verbose argument helps determine whether or not to show
 // the output from the test harnesses (if the mode of the exercise is test)
-pub fn run(exercise: &Exercise, verbose: bool) -> Result<(), ()> {
+pub fn run_fooBar(exercise: &Exercise, verbose: bool) -> Result<(), ()> {
     match exercise.mode {
         Mode::Test => test(exercise, verbose)?,
         Mode::Compile => compile_and_run(exercise)?,
